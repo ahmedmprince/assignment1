@@ -37,3 +37,49 @@ header .sign-in {
 header .sign-in:hover {
   background-color: #f0f9f0;
 }
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(199, 230, 212);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .content {
+    max-width: 80%;
+  }
+  
+  .subtitle {
+    font-size: 25px;
+    color: #555;
+    margin: 0 0 10px;
+  }
+  
+  h2 {
+    font-size: 38px;
+    font-style: initial;
+    color: #222;
+    margin: 10px 0 20px;
+  }
+  
+  .explore-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #14551fee;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .explore-btn:hover {
+    background-color: #114926;
+  }
+  
+    .banner img {
+        width: 100%;
+        max-width: 400px;
+    }
