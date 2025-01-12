@@ -1,0 +1,39 @@
+*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #cc808c;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background-color: #cc808c4;
+  
+}
+
+header h1 {
+  margin: 0px;
+  font-size: 30px;
+
+  color: #222;
+}
+
+header .sign-in {
+    margin: 0px;
+  font-size: 20px;
+  padding: 8px 10px;
+  background-color: #ffffff;
+  border-color: #026c00;
+  border-radius: 10px;
+  
+  color: #026c00;
+
+  cursor: pointer;
+}
+
+header .sign-in:hover {
+  background-color: #f0f9f0;
+}
