@@ -83,3 +83,43 @@ header .sign-in:hover {
         width: 100%;
         max-width: 400px;
     }
+    section {
+        margin: 0px auto;
+        padding: 20px;
+        max-width: 1185px;
+      }
+      
+      .pillars .pillar-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+      
+      .card {
+
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(56, 58, 7, 0.692);
+        text-align: center;
+      }
+      
+      .card img {
+        width: 50px;
+        margin-bottom: 10px;
+        border-left: 0cap;
+      }
+    
+      .card h3 {
+        font-display: block;
+        text-align: left;
+        font-size: 20px;
+        color: #222;
+      }
+      
+      .card p {
+        text-align: left;
+        font-size: 14px;
+        color: #0a0a0a;
+        text-align: left;
+      }
