@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 100px;
-  background-color: #cc808c4;
+  background-color: #ffffff;
   
 }
 
@@ -43,13 +43,13 @@ header .sign-in:hover {
     align-items: center;
     background-color: rgb(199, 230, 212);
     border-radius: 20px;
-    padding: 40px;
-    max-width: 1200px;
+    padding: 60px;
+    max-width: 1300px;
     width: 100%;
   }
   
   .content {
-    max-width: 80%;
+    max-width: 100%;
   }
   
   .subtitle {
@@ -86,7 +86,7 @@ header .sign-in:hover {
     section {
         margin: 0px auto;
         padding: 20px;
-        max-width: 1185px;
+        max-width: 1300px;
       }
       
       .pillars .pillar-cards {
@@ -212,14 +212,14 @@ header .sign-in:hover {
       }
       
       .quote {
-        font-size: 16px;
+        font-size: 23px;
         color: #555;
         margin-bottom: 20px;
         position: relative;
       }
       
       .quote-icon {
-        font-size: 50px;
+        font-size: 60px;
         color: #ccc;
         line-height: 0;
         vertical-align: middle;
@@ -500,4 +500,220 @@ header .sign-in:hover {
         height: auto;
         border-radius: 10px;
         object-fit: cover;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+      }
+      
+      .donate-section {
+        text-align: center;
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+      }
+      
+      .donate-section h2 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    
+      }
+      
+      .donate-description {
+        font-size: 16px;
+        color: #555;
+        padding: 0 20px 20px;
+      }
+      
+      .donation-options {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+      
+      .donation-amount {
+        padding: 15px 25px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .donation-amount:hover {
+        border-color: #999;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      .donation-amount.selected {
+        background-color: #c3e5d1;
+        border-color: #2c7a7b;
+      }
+      
+      .other-amount {
+        display: block;
+        width: 1000px;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        margin: 0 auto 20px;
+      }
+      
+      .other-amount:focus {
+        text-align: center;
+        border-color: #2c7a7b;
+        outline: none;
+      }
+      
+      .donate-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #2c7a7b;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+      }
+      
+      .donate-button:hover {
+        background-color: #285e61;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+      }
+      
+      .newsletter-section {
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+      }
+      
+      .newsletter-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #d9f0e4;
+        border-radius: 15px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .newsletter-container h2 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #333;
+      }
+      
+      .newsletter-description {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 25px;
+      }
+      
+      .newsletter-input-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      
+      .newsletter-input {
+        width: 60%;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        transition: border-color 0.3s;
+      }
+      
+      .newsletter-input:focus {
+        border-color: #2c7a7b;
+      }
+      
+      .subscribe-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #2c7a7b;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      .subscribe-button:hover {
+        background-color: #285e61;
+      }
+      
+      .newsletter-promise {
+        font-size: 14px;
+        color: #777;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      
+      .footer {
+        text-align: center;
+        padding: 30px 20px;
+        background-color: #f9f9f9;
+        border-top: 1px solid #ddd;
+      }
+      
+      .footer-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #333;
+      }
+      
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+      
+      .social-icon img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s;
+      }
+      
+      .social-icon img:hover {
+        transform: scale(1.2);
       }
