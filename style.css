@@ -123,3 +123,69 @@ header .sign-in:hover {
         color: #0a0a0a;
         text-align: left;
       }
+      .section {
+        margin: 0px auto;
+        padding: 20px;
+        max-width: 1200px;
+      }
+      .vision {
+        margin: 0;
+        text-align: left;
+      }
+      
+      .vision p {
+        text-align: left;
+        max-width: 1200px;
+        color: #0c0c0c;
+        }
+      
+      .vision-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      
+      .vision-card {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(44, 15, 15, 0.685);
+        text-align: left;
+      }
+      
+      .vision-card img {
+        width: 50px;
+        margin-bottom: 10px;
+        border-left: 0cap;
+      }
+      
+      .vision-card h3 {
+        font-size: 18px;
+        color: #222;
+      }
+      
+      .vision-card p {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+      
+      .vision-card button {
+        padding: 10px 20px;
+        font-size: 14px;
+        color: #ffffff;
+        background-color: #026c00;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .vision-card button:hover {
+        background-color: #014d00;
+      }
+      .vision  {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
